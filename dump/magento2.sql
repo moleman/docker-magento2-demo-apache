@@ -3311,16 +3311,6 @@ CREATE TABLE `core_config_data` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `core_config_data`
---
-
-LOCK TABLES `core_config_data` WRITE;
-/*!40000 ALTER TABLE `core_config_data` DISABLE KEYS */;
-INSERT INTO `core_config_data` VALUES (1,'default',0,'admin/dashboard/enable_charts','0'),(2,'default',0,'web/unsecure/base_url','http://coreos-1-5920.lvs01.dev.ebayc3.com/'),(3,'default',0,'web/secure/base_url','http://coreos-1-5920.lvs01.dev.ebayc3.com/'),(4,'default',0,'general/locale/code','en_US'),(5,'default',0,'general/locale/timezone','America/Los_Angeles'),(6,'default',0,'currency/options/base','USD'),(7,'default',0,'currency/options/default','USD'),(8,'default',0,'currency/options/allow','USD'),(9,'default',0,'general/region/display_all','1'),(10,'default',0,'general/region/state_required','AT,CA,CH,DE,EE,ES,FI,FR,LT,LV,RO,US'),(11,'default',0,'catalog/category/root_id',NULL);
-/*!40000 ALTER TABLE `core_config_data` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `core_flag`
 --
 
